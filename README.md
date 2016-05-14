@@ -41,3 +41,4 @@ output: "▄▆▃█▂▁▁▁▆▁▆▂▁▁"
 Ok that's all folks. Enjoy!
 
 MIT License
+ 
