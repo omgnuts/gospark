@@ -1,0 +1,36 @@
+# System caches
+Thumbs.db # Windows thumbnail db
+.DS_Store # OSX files
+
+# Android Studio / Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse project files
+.classpath
+.project
+.metadata/
+local.properties
+
+# built application files
+*.apk
+*.ap_
+*.dex
+
+# Generated files
+*.class
+bin/
+gen/
+
+# Gradle wrappers / generated
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+build/
+captures/
+
+# Go
+*.exe
