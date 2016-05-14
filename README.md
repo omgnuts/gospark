@@ -1,4 +1,4 @@
-### GoSpark [![GoDoc](https://godoc.org/github.com/omgnuts/gospark?status.svg)](http://godoc.org/github.com/omgnuts/gospark) [![Build Status](https://travis-ci.org/omgnuts/gospark.svg?branch=context)](https://travis-ci.org/omgnuts/gospark)
+### GoSpark [![GoDoc](https://godoc.org/github.com/omgnuts/gospark?status.svg)](http://godoc.org/github.com/omgnuts/gospark) [![Build Status](https://travis-ci.org/omgnuts/gospark.svg?branch=master)](https://travis-ci.org/omgnuts/gospark)
 
 ##### A small sparkline utility inspired by [holman/spark](https://github.com/holman/spark)
 
