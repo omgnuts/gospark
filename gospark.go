@@ -18,6 +18,7 @@ func main() {
 			vals = append(vals, f)
 		}
 	}
+
 	fmt.Println(Signals(vals))
 }
 
@@ -31,18 +32,17 @@ func Signals(nums []float64) string {
 	min, max := bounds(nums)
 	var sparks bytes.Buffer
 	if math.Abs(max - min) < 0.0000001 {
-		for _, n := range nums {
-			_ = n
+		for c := 0; c < len(nums); c++ {
 			sparks.WriteRune(ticks[0])
 		}
 	} else {
-		scale := 8.0 / (max - min)
+		scale := 7.0 / (max - min)
 		for _, n := range nums {
-			tick := int(math.Floor((n - min) * scale))
-			if tick > 7 { tick = 7 } // cap
+			tick := int((n - min) * scale + 0.5) // always positive
 			sparks.WriteRune(ticks[tick])
 		}
 	}
+
 	return sparks.String()
 }
 

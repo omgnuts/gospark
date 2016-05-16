@@ -19,7 +19,7 @@ func TestHolman(t *testing.T) {
 
 	//it_charts_pipe_data
 	in = []float64{0, 30, 55, 80, 33, 150}
-	out = "▁▂▃▅▂█"
+	out = "▁▂▄▅▃█"
 	expect(t, in, out, Signals(in))
 
 	//it_handles_decimals
@@ -44,7 +44,7 @@ func TestHolman(t *testing.T) {
 
 	//it_charts_no_tier_0
 	in = []float64{1,2,3,4,5}
-	out = "▁▃▅▇█"
+	out = "▁▃▅▆█"
 	expect(t, in, out, Signals(in))
 }
 
